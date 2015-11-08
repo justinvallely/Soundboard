@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0873041BC0B85500D8A972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0873031BC0B85500D8A972 /* AppDelegate.swift */; };
+		EB0873061BC0B85500D8A972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0873051BC0B85500D8A972 /* ViewController.swift */; };
+		EB0873091BC0B85500D8A972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0873071BC0B85500D8A972 /* Main.storyboard */; };
+		EB08730B1BC0B85500D8A972 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB08730A1BC0B85500D8A972 /* Images.xcassets */; };
+		EB08730E1BC0B85500D8A972 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB08730C1BC0B85500D8A972 /* LaunchScreen.xib */; };
+		EB08731A1BC0B85500D8A972 /* Ryder_SoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0873191BC0B85500D8A972 /* Ryder_SoundboardTests.swift */; };
+		EB0DC4651BEBA9C2006437C6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0DC4641BEBA9C2006437C6 /* PageViewController.swift */; };
+		EB55A2F41BE9E130002443DD /* bm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB2E03801BE9DD880017D020 /* bm.m4a */; };
+		EB55A2F51BE9E130002443DD /* grunting.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB2E03811BE9DD880017D020 /* grunting.m4a */; };
+		EB55A2F61BE9E130002443DD /* diaper.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB2E03821BE9DD880017D020 /* diaper.m4a */; };
+		EB55A2F81BE9E2EC002443DD /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = EB55A2F71BE9E2EC002443DD /* 180.png */; };
+		EB64BA1E1BE33DAF004BA4DB /* coo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB64BA181BE33DAE004BA4DB /* coo.m4a */; };
+		EB64BA1F1BE33DAF004BA4DB /* sneeze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB64BA191BE33DAE004BA4DB /* sneeze.m4a */; };
+		EB64BA201BE33DAF004BA4DB /* pacifier.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB64BA1A1BE33DAE004BA4DB /* pacifier.m4a */; };
+		EB64BA211BE33DAF004BA4DB /* squeak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB64BA1B1BE33DAF004BA4DB /* squeak.m4a */; };
+		EB64BA221BE33DAF004BA4DB /* talking.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB64BA1C1BE33DAF004BA4DB /* talking.m4a */; };
+		EB64BA231BE33DAF004BA4DB /* talking2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EB64BA1D1BE33DAF004BA4DB /* talking2.m4a */; };
+		EBA689D11BD89BCE001F25C4 /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBA689D01BD89BCE001F25C4 /* bg2.jpg */; };
+		EBA689D31BD8AAF2001F25C4 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBA689D21BD8AAF2001F25C4 /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0873141BC0B85500D8A972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0872F61BC0B85500D8A972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0872FD1BC0B85500D8A972;
+			remoteInfo = "Ryder Soundboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0872FE1BC0B85500D8A972 /* Ryder Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ryder Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0873021BC0B85500D8A972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0873031BC0B85500D8A972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB0873051BC0B85500D8A972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB0873081BC0B85500D8A972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB08730A1BC0B85500D8A972 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB08730D1BC0B85500D8A972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB0873131BC0B85500D8A972 /* Ryder SoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ryder SoundboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0873181BC0B85500D8A972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0873191BC0B85500D8A972 /* Ryder_SoundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ryder_SoundboardTests.swift; sourceTree = "<group>"; };
+		EB0DC4641BEBA9C2006437C6 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		EB2E03801BE9DD880017D020 /* bm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bm.m4a; sourceTree = "<group>"; };
+		EB2E03811BE9DD880017D020 /* grunting.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = grunting.m4a; sourceTree = "<group>"; };
+		EB2E03821BE9DD880017D020 /* diaper.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = diaper.m4a; sourceTree = "<group>"; };
+		EB55A2F71BE9E2EC002443DD /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images.xcassets/AppIcon.appiconset/180.png; sourceTree = "<group>"; };
+		EB64BA181BE33DAE004BA4DB /* coo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = coo.m4a; sourceTree = "<group>"; };
+		EB64BA191BE33DAE004BA4DB /* sneeze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sneeze.m4a; sourceTree = "<group>"; };
+		EB64BA1A1BE33DAE004BA4DB /* pacifier.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pacifier.m4a; sourceTree = "<group>"; };
+		EB64BA1B1BE33DAF004BA4DB /* squeak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = squeak.m4a; sourceTree = "<group>"; };
+		EB64BA1C1BE33DAF004BA4DB /* talking.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = talking.m4a; sourceTree = "<group>"; };
+		EB64BA1D1BE33DAF004BA4DB /* talking2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = talking2.m4a; sourceTree = "<group>"; };
+		EBA689D01BD89BCE001F25C4 /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
+		EBA689D21BD8AAF2001F25C4 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0872FB1BC0B85500D8A972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0873101BC0B85500D8A972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0872F51BC0B85500D8A972 = {
+			isa = PBXGroup;
+			children = (
+				EB0873001BC0B85500D8A972 /* Ryder Soundboard */,
+				EB0873161BC0B85500D8A972 /* Ryder SoundboardTests */,
+				EB0872FF1BC0B85500D8A972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0872FF1BC0B85500D8A972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0872FE1BC0B85500D8A972 /* Ryder Soundboard.app */,
+				EB0873131BC0B85500D8A972 /* Ryder SoundboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0873001BC0B85500D8A972 /* Ryder Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				EB0873031BC0B85500D8A972 /* AppDelegate.swift */,
+				EB0873051BC0B85500D8A972 /* ViewController.swift */,
+				EB0DC4641BEBA9C2006437C6 /* PageViewController.swift */,
+				EB55A2F71BE9E2EC002443DD /* 180.png */,
+				EBA689D01BD89BCE001F25C4 /* bg2.jpg */,
+				EBA689D21BD8AAF2001F25C4 /* bg.jpg */,
+				EB0873071BC0B85500D8A972 /* Main.storyboard */,
+				EB08730A1BC0B85500D8A972 /* Images.xcassets */,
+				EB08730C1BC0B85500D8A972 /* LaunchScreen.xib */,
+				EB64BA241BE33DBA004BA4DB /* Audio Files */,
+				EB0873011BC0B85500D8A972 /* Supporting Files */,
+			);
+			path = "Ryder Soundboard";
+			sourceTree = "<group>";
+		};
+		EB0873011BC0B85500D8A972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0873021BC0B85500D8A972 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB0873161BC0B85500D8A972 /* Ryder SoundboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0873191BC0B85500D8A972 /* Ryder_SoundboardTests.swift */,
+				EB0873171BC0B85500D8A972 /* Supporting Files */,
+			);
+			path = "Ryder SoundboardTests";
+			sourceTree = "<group>";
+		};
+		EB0873171BC0B85500D8A972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0873181BC0B85500D8A972 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB64BA241BE33DBA004BA4DB /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E03801BE9DD880017D020 /* bm.m4a */,
+				EB2E03811BE9DD880017D020 /* grunting.m4a */,
+				EB2E03821BE9DD880017D020 /* diaper.m4a */,
+				EB64BA181BE33DAE004BA4DB /* coo.m4a */,
+				EB64BA191BE33DAE004BA4DB /* sneeze.m4a */,
+				EB64BA1A1BE33DAE004BA4DB /* pacifier.m4a */,
+				EB64BA1B1BE33DAF004BA4DB /* squeak.m4a */,
+				EB64BA1C1BE33DAF004BA4DB /* talking.m4a */,
+				EB64BA1D1BE33DAF004BA4DB /* talking2.m4a */,
+			);
+			name = "Audio Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0872FD1BC0B85500D8A972 /* Ryder Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB08731D1BC0B85500D8A972 /* Build configuration list for PBXNativeTarget "Ryder Soundboard" */;
+			buildPhases = (
+				EB0872FA1BC0B85500D8A972 /* Sources */,
+				EB0872FB1BC0B85500D8A972 /* Frameworks */,
+				EB0872FC1BC0B85500D8A972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ryder Soundboard";
+			productName = "Ryder Soundboard";
+			productReference = EB0872FE1BC0B85500D8A972 /* Ryder Soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB0873121BC0B85500D8A972 /* Ryder SoundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0873201BC0B85500D8A972 /* Build configuration list for PBXNativeTarget "Ryder SoundboardTests" */;
+			buildPhases = (
+				EB08730F1BC0B85500D8A972 /* Sources */,
+				EB0873101BC0B85500D8A972 /* Frameworks */,
+				EB0873111BC0B85500D8A972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0873151BC0B85500D8A972 /* PBXTargetDependency */,
+			);
+			name = "Ryder SoundboardTests";
+			productName = "Ryder SoundboardTests";
+			productReference = EB0873131BC0B85500D8A972 /* Ryder SoundboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0872F61BC0B85500D8A972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Justin Vallely";
+				TargetAttributes = {
+					EB0872FD1BC0B85500D8A972 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7K37X93RXY;
+					};
+					EB0873121BC0B85500D8A972 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7K37X93RXY;
+						TestTargetID = EB0872FD1BC0B85500D8A972;
+					};
+				};
+			};
+			buildConfigurationList = EB0872F91BC0B85500D8A972 /* Build configuration list for PBXProject "Ryder Soundboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0872F51BC0B85500D8A972;
+			productRefGroup = EB0872FF1BC0B85500D8A972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0872FD1BC0B85500D8A972 /* Ryder Soundboard */,
+				EB0873121BC0B85500D8A972 /* Ryder SoundboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0872FC1BC0B85500D8A972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB55A2F81BE9E2EC002443DD /* 180.png in Resources */,
+				EB55A2F41BE9E130002443DD /* bm.m4a in Resources */,
+				EB55A2F51BE9E130002443DD /* grunting.m4a in Resources */,
+				EB55A2F61BE9E130002443DD /* diaper.m4a in Resources */,
+				EBA689D11BD89BCE001F25C4 /* bg2.jpg in Resources */,
+				EB64BA221BE33DAF004BA4DB /* talking.m4a in Resources */,
+				EB0873091BC0B85500D8A972 /* Main.storyboard in Resources */,
+				EB64BA211BE33DAF004BA4DB /* squeak.m4a in Resources */,
+				EB64BA1E1BE33DAF004BA4DB /* coo.m4a in Resources */,
+				EB64BA1F1BE33DAF004BA4DB /* sneeze.m4a in Resources */,
+				EB64BA201BE33DAF004BA4DB /* pacifier.m4a in Resources */,
+				EB64BA231BE33DAF004BA4DB /* talking2.m4a in Resources */,
+				EBA689D31BD8AAF2001F25C4 /* bg.jpg in Resources */,
+				EB08730E1BC0B85500D8A972 /* LaunchScreen.xib in Resources */,
+				EB08730B1BC0B85500D8A972 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0873111BC0B85500D8A972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0872FA1BC0B85500D8A972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0DC4651BEBA9C2006437C6 /* PageViewController.swift in Sources */,
+				EB0873061BC0B85500D8A972 /* ViewController.swift in Sources */,
+				EB0873041BC0B85500D8A972 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB08730F1BC0B85500D8A972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB08731A1BC0B85500D8A972 /* Ryder_SoundboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0873151BC0B85500D8A972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0872FD1BC0B85500D8A972 /* Ryder Soundboard */;
+			targetProxy = EB0873141BC0B85500D8A972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB0873071BC0B85500D8A972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0873081BC0B85500D8A972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB08730C1BC0B85500D8A972 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB08730D1BC0B85500D8A972 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB08731B1BC0B85500D8A972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin Vallely (7K37X93RXY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d2216d90-dcad-41ab-8a91-eecbf1436e3a";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB08731C1BC0B85500D8A972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin Vallely (7K37X93RXY)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d2216d90-dcad-41ab-8a91-eecbf1436e3a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB08731E1BC0B85500D8A972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ryder Soundboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pajamadonkey.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EB08731F1BC0B85500D8A972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Ryder Soundboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pajamadonkey.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EB0873211BC0B85500D8A972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ryder SoundboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pajamadonkey.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ryder Soundboard.app/Ryder Soundboard";
+			};
+			name = Debug;
+		};
+		EB0873221BC0B85500D8A972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ryder SoundboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pajamadonkey.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ryder Soundboard.app/Ryder Soundboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0872F91BC0B85500D8A972 /* Build configuration list for PBXProject "Ryder Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB08731B1BC0B85500D8A972 /* Debug */,
+				EB08731C1BC0B85500D8A972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB08731D1BC0B85500D8A972 /* Build configuration list for PBXNativeTarget "Ryder Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB08731E1BC0B85500D8A972 /* Debug */,
+				EB08731F1BC0B85500D8A972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0873201BC0B85500D8A972 /* Build configuration list for PBXNativeTarget "Ryder SoundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0873211BC0B85500D8A972 /* Debug */,
+				EB0873221BC0B85500D8A972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0872F61BC0B85500D8A972 /* Project object */;
+}
