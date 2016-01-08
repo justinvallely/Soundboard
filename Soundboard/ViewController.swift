@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Ryder Soundboard
+//  Soundboard
 //
 //  Created by Justin Vallely on 10/3/15.
 //  Copyright (c) 2015 Justin Vallely. All rights reserved.
@@ -9,13 +9,13 @@
 import UIKit
 import AVFoundation
 
-public class ViewController: UIViewController/*, UIPageViewControllerDataSource*/ {
+public class ViewController: UIViewController {
 
     var updater: CADisplayLink!
 
     var player: AVAudioPlayer = AVAudioPlayer()
 
-    var audioPath = NSBundle.mainBundle().pathForResource("coo", ofType: "m4a")!
+    var audioPath = NSBundle.mainBundle().pathForResource("sound1", ofType: "wav")!
 
     let cornerRadius: CGFloat = 5
     let borderColor = UIColor.whiteColor().CGColor
@@ -50,55 +50,55 @@ public class ViewController: UIViewController/*, UIPageViewControllerDataSource*
     @IBAction func button1Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button1ProgressView
-        playSound("talking")
+        playSound("sound1")
     }
 
     @IBAction func button2Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button2ProgressView
-        playSound("talking2")
+        playSound("sound1")
     }
 
     @IBAction func button3Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button3ProgressView
-        playSound("pacifier")
+        playSound("sound1")
     }
 
     @IBAction func button4Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button4ProgressView
-        playSound("coo")
+        playSound("sound1")
     }
 
     @IBAction func button5Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button5ProgressView
-        playSound("squeak")
+        playSound("sound1")
     }
 
     @IBAction func button6Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button6ProgressView
-        playSound("sneeze")
+        playSound("sound1")
     }
 
     @IBAction func button7Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button7ProgressView
-        playSound("diaper")
+        playSound("sound1")
     }
 
     @IBAction func button8Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button8ProgressView
-        playSound("grunting")
+        playSound("sound1")
     }
 
     @IBAction func button9Action(sender: AnyObject) {
         stopSound()
         activeProgressView = button9ProgressView
-        playSound("bm")
+        playSound("sound1")
     }
 
     override public func viewDidLoad() {
@@ -145,7 +145,7 @@ public class ViewController: UIViewController/*, UIPageViewControllerDataSource*
     func playSound(sound: String) {
 
         print("sound: \(sound)")
-        audioPath = NSBundle.mainBundle().pathForResource(sound, ofType: "m4a")!
+        audioPath = NSBundle.mainBundle().pathForResource(sound, ofType: "wav")!
 
         var error: NSError? = nil
 
@@ -180,16 +180,4 @@ public class ViewController: UIViewController/*, UIPageViewControllerDataSource*
         // Dispose of any resources that can be recreated.
     }
 
-//    // UIPageViewControllerDataSource methods
-//    public func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
-//        if currentPage == 1 {
-//            currentPage 
-//        } else {
-//            currentPage++
-//        }
-//    }
-//
-//    public func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
-//
-//    }
 }

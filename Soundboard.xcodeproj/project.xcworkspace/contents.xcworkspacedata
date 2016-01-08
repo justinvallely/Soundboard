@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Ryder Soundboard.xcodeproj">
+      location = "self:/Users/justinvallely/Documents/apps/Soundboard/Soundboard.xcodeproj">
    </FileRef>
 </Workspace>

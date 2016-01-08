@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Ryder Soundboard.xcscheme</key>
+		<key>Soundboard.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>tvTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>EB0873121BC0B85500D8A972</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBF369641BFEEB2900B3D56C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBF3696D1BFEEB2A00B3D56C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

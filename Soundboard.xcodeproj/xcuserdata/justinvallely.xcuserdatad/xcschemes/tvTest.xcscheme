@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB0872FD1BC0B85500D8A972"
-               BuildableName = "Ryder Soundboard.app"
-               BlueprintName = "Ryder Soundboard"
-               ReferencedContainer = "container:Ryder Soundboard.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB0873121BC0B85500D8A972"
-               BuildableName = "Ryder SoundboardTests.xctest"
-               BlueprintName = "Ryder SoundboardTests"
-               ReferencedContainer = "container:Ryder Soundboard.xcodeproj">
+               BlueprintIdentifier = "EBF369641BFEEB2900B3D56C"
+               BuildableName = "tvTest.framework"
+               BlueprintName = "tvTest"
+               ReferencedContainer = "container:Soundboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB0873121BC0B85500D8A972"
-               BuildableName = "Ryder SoundboardTests.xctest"
-               BlueprintName = "Ryder SoundboardTests"
-               ReferencedContainer = "container:Ryder Soundboard.xcodeproj">
+               BlueprintIdentifier = "EBF3696D1BFEEB2A00B3D56C"
+               BuildableName = "tvTestTests.xctest"
+               BlueprintName = "tvTestTests"
+               ReferencedContainer = "container:Soundboard.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB0872FD1BC0B85500D8A972"
-            BuildableName = "Ryder Soundboard.app"
-            BlueprintName = "Ryder Soundboard"
-            ReferencedContainer = "container:Ryder Soundboard.xcodeproj">
+            BlueprintIdentifier = "EBF369641BFEEB2900B3D56C"
+            BuildableName = "tvTest.framework"
+            BlueprintName = "tvTest"
+            ReferencedContainer = "container:Soundboard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB0872FD1BC0B85500D8A972"
-            BuildableName = "Ryder Soundboard.app"
-            BlueprintName = "Ryder Soundboard"
-            ReferencedContainer = "container:Ryder Soundboard.xcodeproj">
+            BlueprintIdentifier = "EBF369641BFEEB2900B3D56C"
+            BuildableName = "tvTest.framework"
+            BlueprintName = "tvTest"
+            ReferencedContainer = "container:Soundboard.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB0872FD1BC0B85500D8A972"
-            BuildableName = "Ryder Soundboard.app"
-            BlueprintName = "Ryder Soundboard"
-            ReferencedContainer = "container:Ryder Soundboard.xcodeproj">
+            BlueprintIdentifier = "EBF369641BFEEB2900B3D56C"
+            BuildableName = "tvTest.framework"
+            BlueprintName = "tvTest"
+            ReferencedContainer = "container:Soundboard.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

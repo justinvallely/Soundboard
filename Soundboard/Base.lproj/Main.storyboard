@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ryder_Soundboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Soundboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,15 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hf3-6j-0UQ">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LMT-Oo-5i3">
                                 <rect key="frame" x="20" y="40" width="173" height="167"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
-                                <state key="normal" title="Talking">
+                                <state key="normal" title="Button 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -40,7 +37,7 @@
                                 <rect key="frame" x="213" y="40" width="174" height="167"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Talking 2">
+                                <state key="normal" title="Button 2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -54,7 +51,7 @@
                                 <rect key="frame" x="407" y="40" width="173" height="167"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Pacifier">
+                                <state key="normal" title="Button 3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -64,6 +61,17 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="icq-gA-Req" userLabel="Button3 Progress View">
                                 <rect key="frame" x="412" y="142" width="163" height="3"/>
                             </progressView>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="arM-Zo-z02">
+                                <rect key="frame" x="20" y="227" width="173" height="166"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Button 4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LF8-RB-fkO"/>
+                                </connections>
+                            </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="eC7-98-yRe" userLabel="Button4 Progress View">
                                 <rect key="frame" x="25" y="329" width="163" height="3"/>
                             </progressView>
@@ -71,7 +79,7 @@
                                 <rect key="frame" x="213" y="227" width="174" height="166"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Squeak">
+                                <state key="normal" title="Button 5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -85,7 +93,7 @@
                                 <rect key="frame" x="407" y="227" width="173" height="166"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Sneeze">
+                                <state key="normal" title="Button 6">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -99,7 +107,7 @@
                                 <rect key="frame" x="20" y="413" width="173" height="167"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="New Diaper">
+                                <state key="normal" title="Button 7">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -113,7 +121,7 @@
                                 <rect key="frame" x="213" y="413" width="174" height="167"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Grunting">
+                                <state key="normal" title="Button 8">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -127,7 +135,7 @@
                                 <rect key="frame" x="407" y="413" width="173" height="167"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="BM">
+                                <state key="normal" title="Button 9">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -137,19 +145,8 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="Uar-qT-IV7" userLabel="Button9 Progress View">
                                 <rect key="frame" x="412" y="516" width="163" height="3"/>
                             </progressView>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="arM-Zo-z02">
-                                <rect key="frame" x="20" y="227" width="173" height="166"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="Coo">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="button4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LF8-RB-fkO"/>
-                                </connections>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="icq-gA-Req" firstAttribute="centerY" secondItem="eQ4-cu-Sxr" secondAttribute="centerY" constant="20" id="0BT-uk-viP"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="leading" secondItem="pXW-mf-AR3" secondAttribute="trailing" constant="20" id="0Tv-GV-Boa"/>
@@ -161,7 +158,6 @@
                             <constraint firstItem="blN-iU-rSk" firstAttribute="centerX" secondItem="LMT-Oo-5i3" secondAttribute="centerX" id="5yl-oy-df6"/>
                             <constraint firstItem="eC7-98-yRe" firstAttribute="centerX" secondItem="arM-Zo-z02" secondAttribute="centerX" id="7O6-my-jqn"/>
                             <constraint firstItem="gIz-8P-Xdu" firstAttribute="centerX" secondItem="Uar-qT-IV7" secondAttribute="centerX" id="9Yo-0x-ECi"/>
-                            <constraint firstItem="hf3-6j-0UQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9yD-pp-qOL"/>
                             <constraint firstItem="bnf-JZ-8xR" firstAttribute="centerX" secondItem="n3A-Jc-Ehb" secondAttribute="centerX" id="CZp-j8-dlI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eQ4-cu-Sxr" secondAttribute="trailing" id="CoV-LS-RAY"/>
                             <constraint firstItem="blN-iU-rSk" firstAttribute="centerY" secondItem="LMT-Oo-5i3" secondAttribute="centerY" constant="20" id="DlH-Ju-Yhi"/>
@@ -171,7 +167,6 @@
                             <constraint firstItem="bnf-JZ-8xR" firstAttribute="top" secondItem="eQ4-cu-Sxr" secondAttribute="bottom" constant="20" id="GeI-ZV-4rB"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="height" secondItem="arM-Zo-z02" secondAttribute="height" id="I5u-aU-cSC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gIz-8P-Xdu" secondAttribute="trailing" id="IYZ-HC-ItW"/>
-                            <constraint firstAttribute="bottom" secondItem="hf3-6j-0UQ" secondAttribute="bottom" id="JYN-6S-jgh"/>
                             <constraint firstItem="gIz-8P-Xdu" firstAttribute="top" secondItem="bnf-JZ-8xR" secondAttribute="bottom" constant="20" id="K0B-m1-fOn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bnf-JZ-8xR" secondAttribute="trailing" id="KRt-R4-GWv"/>
                             <constraint firstItem="6DI-Ao-IfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="L7i-qy-lA7"/>
@@ -208,7 +203,6 @@
                             <constraint firstItem="bnf-JZ-8xR" firstAttribute="leading" secondItem="h4n-gb-GBe" secondAttribute="trailing" constant="20" id="lEn-Ka-vdU"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="height" secondItem="gIz-8P-Xdu" secondAttribute="height" id="lFT-D5-hmW"/>
                             <constraint firstItem="eQ4-cu-Sxr" firstAttribute="width" secondItem="icq-gA-Req" secondAttribute="width" constant="10" id="lHx-xG-vbJ"/>
-                            <constraint firstItem="hf3-6j-0UQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ly9-CQ-Nh9"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="width" secondItem="gIz-8P-Xdu" secondAttribute="width" id="mMI-jR-wvr"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="width" secondItem="eQ4-cu-Sxr" secondAttribute="width" id="nOO-zF-mze"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="width" secondItem="LMT-Oo-5i3" secondAttribute="width" id="p8Q-vK-IgS"/>
@@ -220,7 +214,6 @@
                             <constraint firstItem="h4n-gb-GBe" firstAttribute="leading" secondItem="arM-Zo-z02" secondAttribute="trailing" constant="20" id="tVI-G0-mnK"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="width" secondItem="arM-Zo-z02" secondAttribute="width" id="uIN-RD-Pu1"/>
                             <constraint firstItem="gIz-8P-Xdu" firstAttribute="leading" secondItem="gNX-Pb-ED6" secondAttribute="trailing" constant="20" id="vZA-MR-Lj9"/>
-                            <constraint firstAttribute="trailing" secondItem="hf3-6j-0UQ" secondAttribute="trailing" id="xmd-1E-42l"/>
                             <constraint firstItem="gNX-Pb-ED6" firstAttribute="width" secondItem="pXW-mf-AR3" secondAttribute="width" id="zE7-n1-IKc"/>
                         </constraints>
                     </view>
@@ -247,18 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="361" y="173"/>
-        </scene>
-        <!--Page View Controller-->
-        <scene sceneID="jNk-UV-xpS">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="8ny-HU-wKk" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TCV-L9-gs3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-332" y="173"/>
+            <point key="canvasLocation" x="433" y="150"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="bg2.jpg" width="3024" height="4032"/>
-    </resources>
 </document>

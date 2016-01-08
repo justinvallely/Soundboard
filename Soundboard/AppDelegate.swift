@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Ryder Soundboard
+//  Soundboard
 //
 //  Created by Justin Vallely on 10/3/15.
 //  Copyright (c) 2015 Justin Vallely. All rights reserved.
